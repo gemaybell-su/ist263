@@ -1,0 +1,16 @@
+/* week 05-02 lab */
+* {
+    font-family: 'Montserrat', Helvetica, Arial, Verdana, sans-serif;
+    color: #black
+}
+.jumbotron {
+    background: #ccc;
+}
+.company-name-1 {
+    background-image: url(./images/company-name-1.png);
+    background-position-x: 90%; 
+    background-repeat: no-repeat;}
+.company-name-2 {
+    background-image: url(./images/company-name-2.png);
+    background-position-x: 90%; 
+    background-repeat: no-repeat;}
