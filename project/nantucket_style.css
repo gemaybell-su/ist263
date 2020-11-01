@@ -1,0 +1,26 @@
+body {
+    background-color: #ADD8E6;  
+    font-family: "Century Gothic", "Arial Narrow", Arial, 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; 
+    color: black;
+}
+.header {
+    background-color: #ADD8E6;
+    text-align: center;
+    padding: 50px;
+  }
+.navbar {
+    overflow: hidden;
+}
+.navbar a {
+        float: left;
+        display: block;
+        color: #ccc;
+        text-align: center;
+        padding: 30px;
+        text-decoration: none;
+}
+  .footer {
+    background-color: #ADD8E6;
+    text-align: center;
+    padding: 20px;
+  }
