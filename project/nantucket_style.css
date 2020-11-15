@@ -11,6 +11,7 @@ body {
 .navbar {
     overflow: hidden;
     color: black
+  
 }
 .navbar a {
         float: left;
