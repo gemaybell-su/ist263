@@ -1,28 +1,63 @@
 body {
-    background-color: #ffffff;  
+    background-color: #FFFAFA;  
     font-family: "Century Gothic", "Arial Narrow", Arial, 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; 
     color: black;
 }
 .header {
-    background-color: #ffffff;
+    background-color: #FFFAFA;
     text-align: center;
     padding: 50px;
   }
+  .marquee {
+    width: 350px;
+    margin: 0 auto;
+    background: #FFFAFA;
+    white-space: nowrap;
+    overflow: hidden;
+    box-sizing: border-box;
+    color: black;
+    font-size:18px;
+ }
+ .marquee span {
+    display: inline-block;
+    padding-left: 100%;
+    text-indent: 0;
+    animation: marquee 15s linear infinite;
+ }
+ .marquee span:hover {
+     animation-play-state: paused
+ }
 .navbar {
     overflow: hidden;
-    color: black
-  
 }
 .navbar a {
         float: left;
         display: block;
-        color: #black;
+        color: #FFFAFA;
         text-align: center;
         padding: 30px;
         text-decoration: none;
 }
+.jumbotron {
+  background-image: url("../img/harbor.jpg");
+  background-size: cover;
+  background-color: #ffffff; 
+  width:500px; 
+  height:500px; 
+  position: fixed; 
+  top: 100%; 
+  left: 100%; 
+  margin-top: -100px; 
+  margin-left: -100px; 
+}
+.header {
+  padding: 60px;
+  text-align: center;
+  background-image: url("..img/coffee.jpg");
+  color: white;
+}
   .footer {
-    background-color: #ADD8E6;
+    background-color: #FFFAFA;
     text-align: center;
     padding: 20px;
   }
