@@ -45,7 +45,8 @@ body {
   min-width: 585px;
   margin: 10px auto;
   display: flex;
-  justify-content: center;
+  vertical-align: middle;
+  text-align: center;
   margin: 10px 10px 10px 10px;
 }
 .header {
