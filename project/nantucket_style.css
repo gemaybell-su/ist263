@@ -7,7 +7,6 @@ body {
   .marquee {
     width: 200px;
     margin: 0 auto;
-    background-color: #FFFAFA;
     white-space: nowrap;
     overflow: hidden;
     box-sizing: border-box;
@@ -22,7 +21,6 @@ body {
  }
  .marquee span:hover {
      animation-play-state: paused
- }
 }
 .navbar {
     float: left;
