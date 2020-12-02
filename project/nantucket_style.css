@@ -23,14 +23,13 @@ body {
  .marquee span:hover {
      animation-play-state: paused
  }
-.navbar {
-    overflow: hidden;
 }
-.navbar a {
+.navbar {
     float: left;
     display: block;
-    color: #FFFAFA;
+    background-color: #FFFAFA;
     text-align: center;
+    color: black
     padding: 30px;
     text-decoration: none;
 }
