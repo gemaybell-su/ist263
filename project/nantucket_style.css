@@ -11,7 +11,7 @@ body {
   .marquee {
     width: 200px;
     margin: 0 auto;
-    background: #FFFAFA;
+    background-color: #FFFAFA;
     white-space: nowrap;
     overflow: hidden;
     box-sizing: border-box;
@@ -49,10 +49,17 @@ body {
   text-align: center;
   margin: 10px 10px 10px 10px;
 }
+.header-img {
+  width: 100%
+  height: 400px
+  background-image: url("..img/coffee.jpg");
+  background-size: cover;
+}
 .header {
-  padding: 60px;
-  text-align: center;
-  color: #FFFAFA;
+  width: 100%
+  height: 400px
+  background-image: url("..img/food.jpg");
+  background-size: cover;  
 }
 .flex-container {
   display: flex;
