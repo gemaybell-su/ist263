@@ -1,13 +1,9 @@
 body {
     background-color: #FFFAFA;  
     font-family: "Century Gothic", "Arial Narrow", Arial, 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; 
+    font-size: 18px;
     color: black;
 }
-.header {
-    background-color: #FFFAFA;
-    text-align: center;
-    padding: 50px;
-  }
   .marquee {
     width: 200px;
     margin: 0 auto;
@@ -51,13 +47,13 @@ body {
 }
 .header-img {
   width: 100%
-  height: 400px
+  height: 300px
   background-image: url("..img/coffee.jpg");
   background-size: cover;
 }
 .header {
   width: 100%
-  height: 400px
+  height: 300px
   background-image: url("..img/food.jpg");
   background-size: cover;  
 }
@@ -74,8 +70,4 @@ body {
   text-align: left;
   line-height: 15px;
   font-size: 10px;
-}
-.footer {
-  background-color: #FFFAFA;
-  padding: 20px;
 }
