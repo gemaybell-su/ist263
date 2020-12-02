@@ -26,6 +26,8 @@ body {
     float: left;
     display: block;
     background-color: #ffffff;
+    margin-bottom: 10 px;
+    width: 100%;
     color: black
 }
 .jumbotron {
